@@ -28,11 +28,13 @@ namespace ConsoleApp10
                 if (timings[j]<first)
                 {
                     first = timings[j];
+                    Console.WriteLine(firstIndex);
                    
                 }
 
             }
             Console.WriteLine("Best timing (min) is: " + first);
+            
 
 
 
